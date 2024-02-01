@@ -1,0 +1,36 @@
+<!-- pages/login.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Login</title>
+</head>
+
+<body>
+  <main>
+    <h1>Faça Login</h1>
+
+    <!-- Componente de foto -->
+    <photo-ui src="user-photo.jpg" alt="User Photo"></photo-ui>
+
+    <!-- Formulário de login -->
+    <form>
+      <!-- Campos de entrada, etc. -->
+
+      <!-- Componente de botão -->
+      <button-ui type="submit">Login</button-ui>
+
+      <!-- Componente de link -->
+      <link-ui href="signup.html">Ainda não tem uma conta? Registre-se aqui.</link-ui>
+    </form>
+  </main>
+
+  <!-- Importando os arquivos de script dos componentes -->
+  <script type="module" src="../components/button-ui/button-ui.js"></script>
+  <script type="module" src="../components/link-ui/link-ui.js"></script>
+  <script type="module" src="../components/photo-ui/photo-ui.js"></script>
+</body>
+
+</html>

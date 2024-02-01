@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/logo.svg" />
+    <title>Namless Jobs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+
+    <script src="src/components/navbar/navbar-component.js" defer></script>
+    <script src="src/components/navbar/logo/logo-component.js" defer></script>
+    <script src="src/components/navbar/button/button-component.js" defer></script>
+
+    <script src="src/components/search/search-component.js" defer></script>
+    <script src="src/components/search/sl-title/sl-title-component.js" defer></script>
+  </head>
+  <style>
+    body {
+      font-family: 'DM Sans', sans-serif;
+      padding: 0px 56px;
+      background: linear-gradient(to right, #ffffff, #ffffff00), url('src/assets/background.svg') no-repeat right 90px;
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <navbar-component menus='["Start a search", "Jobs list", "Salary estimate", "Pricing"]'></navbar-component>
+      <search-component></search-component>
+      <!-- crie um botão para redirecionar a pagina para login com o elemento botão padrao -->
+      <!-- <button type="button" onclick="window.location.href = 'src/pages/login.html'">Login</button> -->
+    </div>
+
+  </body>
+</html>
